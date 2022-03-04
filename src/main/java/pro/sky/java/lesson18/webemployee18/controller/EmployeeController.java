@@ -10,9 +10,8 @@ import pro.sky.java.lesson18.webemployee18.service.EmployeeService;
 
 import java.util.Map;
 
-
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("employee")
 public class EmployeeController {
 
     private final EmployeeService employeeService;
@@ -45,5 +44,6 @@ public class EmployeeController {
     public Map<Employee, Integer> print() {
         return employeeService.printAllEmployees();
     }
+
 
 }

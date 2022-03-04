@@ -22,7 +22,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Имя и фамилия сотрудника:" + firstName + " " + lastName;
+        return "Фамилия и имя сотрудника:" + lastName + " " + firstName;
     }
 
     @Override

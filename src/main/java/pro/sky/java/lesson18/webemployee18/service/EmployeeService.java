@@ -1,8 +1,6 @@
 package pro.sky.java.lesson18.webemployee18.service;
 
-import java.util.HashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 public interface EmployeeService {
 
@@ -13,6 +11,5 @@ public interface EmployeeService {
     Employee findEmployee(String firstName, String lastName);
 
     Map<Employee, Integer> printAllEmployees();
-
 
 }
